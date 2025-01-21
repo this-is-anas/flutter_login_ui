@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1063082167396",
+    "project_id": "jobly-e56cb",
+    "storage_bucket": "jobly-e56cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063082167396:android:93def4846faaad89cd6371",
+        "android_client_info": {
+          "package_name": "com.example.jobly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063082167396-ut0chpu1fjiu3c55vgqbns9gn4pko60o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobly",
+            "certificate_hash": "68221ad7be61a038e756e50fa3ef6c131a9017e3"
+          }
+        },
+        {
+          "client_id": "1063082167396-d3p40u70k6iagtqec7rr783152btk8pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTM2vJtpOwuIFCjiSyL3t4XqSzApwId9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063082167396-d3p40u70k6iagtqec7rr783152btk8pg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1063082167396-gat5vjq7b2t56q5fo5r2kutme9rtp0td.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jobly"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
