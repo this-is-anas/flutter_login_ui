@@ -84,7 +84,7 @@ class _RegisterPageState extends State<RegisterPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SizedBox(
-                  height: 40,
+                  height: 30,
                 ),
                 // logo
                 //for now lets take icon
@@ -94,7 +94,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 ),
                 //welcom back
                 SizedBox(
-                  height: 40,
+                  height: 30,
                 ),
                 Text(
                   "Let's Create An Account For You!",
@@ -102,7 +102,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 ),
                 //email textfield
                 SizedBox(
-                  height: 50,
+                  height: 40,
                 ),
                 MyTextField(
                   controller: emailController,
@@ -175,13 +175,13 @@ class _RegisterPageState extends State<RegisterPage> {
                       onTap: () => AuthService().signInWithGoogle(),
                       imagePath: 'lib/assets/images/gogle_icon.png',
                     ),
-                    SizedBox(
-                      width: 25,
-                    ),
-                    SquareTile(
-                      onTap: () {},
-                      imagePath: 'lib/assets/images/apple_logo.png',
-                    )
+                    // SizedBox(
+                    //   width: 25,
+                    // ),
+                    // SquareTile(
+                    //   onTap: () {},
+                    //   imagePath: 'lib/assets/images/apple_logo.png',
+                    // )
                   ],
                 ),
                 //new account

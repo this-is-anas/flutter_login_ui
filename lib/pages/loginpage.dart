@@ -77,7 +77,7 @@ class _LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SizedBox(
-                  height: 60,
+                  height: 30,
                 ),
                 // logo
                 //for now lets take icon
@@ -87,7 +87,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 //welcom back
                 SizedBox(
-                  height: 50,
+                  height: 30,
                 ),
                 Text(
                   "Welcom Back You've Been Missed!",
@@ -95,7 +95,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 //email textfield
                 SizedBox(
-                  height: 50,
+                  height: 40,
                 ),
                 MyTextField(
                   controller: emailController,
@@ -115,16 +115,16 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(
                   height: 15,
                 ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 25.0),
-                  child:
-                      Row(mainAxisAlignment: MainAxisAlignment.end, children: [
-                    Text(
-                      "Forgot Passsword?",
-                      style: TextStyle(color: Colors.grey[600]),
-                    )
-                  ]),
-                ),
+                // Padding(
+                //   padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                //   child:
+                //       Row(mainAxisAlignment: MainAxisAlignment.end, children: [
+                //     Text(
+                //       "Forgot Passsword?",
+                //       style: TextStyle(color: Colors.grey[600]),
+                //     )
+                //   ]),
+                // ),
                 //signin button
                 SizedBox(
                   height: 25,
@@ -172,13 +172,13 @@ class _LoginPageState extends State<LoginPage> {
                       onTap: () => AuthService().signInWithGoogle(),
                       imagePath: 'lib/assets/images/gogle_icon.png',
                     ),
-                    SizedBox(
-                      width: 25,
-                    ),
-                    SquareTile(
-                      onTap: () {},
-                      imagePath: 'lib/assets/images/apple_logo.png',
-                    )
+                    // SizedBox(
+                    //   width: 25,
+                    // ),
+                    // SquareTile(
+                    //   onTap: () {},
+                    //   imagePath: 'lib/assets/images/apple_logo.png',
+                    // )
                   ],
                 ),
                 //new account
